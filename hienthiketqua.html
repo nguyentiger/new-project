@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<h3>Bai 1</h3>
+	<button type="button" onclick="showMessage();">Click Me!</button>
+	<script>
+		function showMessage()
+		{
+			alert('Xin Chao!');
+		}
+	</script>
+	<h3> Bai 2</h3>
+	<div id="messageDiv"></div>
+	<button type="button" onclick="showMessage();">Click Me!</button>
+	<script>
+		function showMessage()
+		{
+			document.getElementById('messageDiv').innerHTML='Xin Chao!';
+		}
+	</script>
+	<h3> Bai 3</h3>
+	<button type="button" onclick="showMessage();">Click Me!</button>
+	<script>
+		function showMessage()
+		{
+			console.log('Xin Chao!');
+		}
+	</script>
+</body>
+</html>
